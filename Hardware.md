@@ -1,3 +1,5 @@
+# Hardware
+
 ## Current situation
 
 My current computer is equipped with two drives:
