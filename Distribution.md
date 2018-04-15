@@ -17,4 +17,4 @@ Debian is the "mother of all distributions", but not as easy to use and administ
 
 Red Hat is focussed on enterprises. No, I'm a personal user and do not expect that level of support they are offering, but instead wanted a distribution with good community support.
 
-So finally my choice was OpenSuse. The're committed to KDE (amongst others), have good community support, provide an upgrade path, are quite stable, and a nice Logo ;-)
+So finally my choice was OpenSuse. The're committed to KDE (amongst others), have good community support, provide an upgrade path, are quite stable, and have a nice Logo ;-)
