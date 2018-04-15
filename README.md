@@ -8,4 +8,20 @@ However I think I'm sufficiently skilled to solve the upcoming problems. So I de
 
 ## A way to Linux
 
-From today I'm starting a soft migration to Linux, and I plan to be finished before the support for Windows 7 ends. I want to document and share my experiences and steps. First of all for myself, because I might have to reproduce this procedure on other computers I manage in my family. But of course also for others playing around with the idea to say good bye to Windows and hello to Linux!
+From today I'm starting a soft migration to Linux, and I plan to be finished before the support for Windows 7 ends. During this phase I will be able to boot both operating systems. I want to document and share my experiences and steps. First of all for myself, because I might have to reproduce this procedure on other computers I manage in my family. But of course also for others playing around with the idea to say good bye to Windows and hello to Linux!
+
+## Step by step
+
+Step by step I'm documenting my way through this transition.
+
+### Preparation
+
+* [The hardware - an upgrade to my computer](Hardware.md)
+* [Selection of Linux distribution](Distribution.md)
+* [List of most used software and ideas how to replace it](Software.md)
+
+### Installation
+
+* [Linux installation and Windows/Linux dual-boot](Installation.md)
+
+### Software migration
