@@ -4,8 +4,8 @@ The programs used in daily business are the ones which are most important to hav
 
 ## Available on Linux
 
-* Firefox
-* KeePass and the Kee plugin for Firefox (runs with mono)
+* [Firefox](Firefox.md)
+* [KeePass and the Kee plugin for Firefox](Firefox.md) (runs with mono)
 * Thunderbird
 * Cewe Foto
 * OwnCloud client
