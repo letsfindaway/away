@@ -6,7 +6,7 @@ The programs used in daily business are the ones which are most important to hav
 
 * [Firefox](Firefox.md)
 * [KeePass and the Kee plugin for Firefox](Firefox.md) (runs with mono)
-* Thunderbird
+* [Thunderbird](Thunderbird.md)
 * Cewe Foto
 * OwnCloud client
 * git
