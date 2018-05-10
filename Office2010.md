@@ -1,0 +1,9 @@
+# Microsoft Office 2010
+
+I have used the Microsoft Office suite a lot under Windows, and - even if there is LibreOffice available by default - I did want to install the Microsoft suite under Linux as well.
+
+To run Windows applications under Linux you need wine - but you're even better off with installing PlayOnLinux, which is an application which can manage multiple parallel versions of wine and comes with a set of scripts to install commonly used software. Many games, but also Microsoft Office 2010.
+
+So I first installed PlayOnLinux using YaST from the official OpenSUSE repositories. I then opened PlayOnLinux, slected install, chose the Microsoft Office 2010 package and went further on. I inserted my DVD into the drive. When asked by PlayOnLinux do not try to tell the path to your DVD drive - this did not work. Instead chose to give the path to the setup.exe located in the root folder of the DVD. Then the typicall Office installer starts up and installs the suite flawless.
+
+The harder part was to get the office suite activated. There are a lot of posts and questions about that on the Internet, but the following was the only thing which worked for me - and it is a very official way. Activation over Internet does not work, so I selected actvation by telephone. However the next dialog says that this is no longer supported for that product. However I found a [post](https://www.codeweavers.com/compatibility/crossover/forum/microsoft-office-2010?msg=204082) pointing to [this official Microsoft page](https://support.office.com/en-us/article/-telephone-activation-is-no-longer-supported-for-your-product-error-when-activating-office-9b016cd2-0811-4cb3-b896-5a6a13177713). Here you can select your country and you will get a phone number allowing for activation of your product! Dane, thanks for this tip!
