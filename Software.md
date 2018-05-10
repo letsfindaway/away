@@ -17,9 +17,9 @@ The programs used in daily business are the ones which are most important to hav
 ## Probably runs on Wine
 
 * Picasa
-* Microsoft Word
-* Microsoft Excel
-* Microsoft Powerpoint
+* [Microsoft Word](Office2010.md)
+* [Microsoft Excel](Office2010.md)
+* [Microsoft Powerpoint](Office2010.md)
 * Microsoft Access
 * SteuerSparErklärung
 * TZ-EasyBuch (Bookkeeping, give it a try on Wine)
