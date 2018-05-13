@@ -26,10 +26,10 @@ The programs used in daily business are the ones which are most important to hav
 
 ## Looking for an alternative
 
-* VR NetWorks (Banking programm with HBCI chipcard support)
-* BackupServiceHome 
-* Notepad++
-* Putty
-* WinSCP
-* Ulead PhotoImpact
+* [VR NetWorks Banking programm with HBCI chipcard support](Alternatives.md)
+* [BackupServiceHome](Alternatives.md)
+* [Notepad++](Alternatives.md)
+* [Putty](Alternatives.md)
+* [WinSCP](Alternatives.md)
+* [Ulead PhotoImpact](Alternatives.md)
 
