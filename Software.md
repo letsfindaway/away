@@ -16,7 +16,7 @@ The programs used in daily business are the ones which are most important to hav
 
 ## Probably runs on Wine
 
-* Picasa
+* [Picasa](Picasa.md)
 * [Microsoft Word](Office2010.md)
 * [Microsoft Excel](Office2010.md)
 * [Microsoft Powerpoint](Office2010.md)
