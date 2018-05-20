@@ -1,4 +1,4 @@
-# Microsoft Access 2010
+# Microsoft Access 2010 and TZ-EasyBuch
 
 Microsoft Access 2010 does not run under wine. Fullstop.
 
@@ -13,18 +13,18 @@ Currently I run an investigation of the following way:
 * Install a Java JRE in the same wine prefix
 * Write a Java Application running inside wine which interacts with the database on one side and Tz-EasyBuch on the other side using com4j.
 
-# Transfer the database to LibreOffice Base
+## Transfer the database to LibreOffice Base
 
 TODO
 
-# Install TZ-EasyBuch inside wine
+## Install TZ-EasyBuch inside wine
 
 TODO
 
-# Install a Java JRE in the same wine prefix
+## Install a Java JRE in the same wine prefix
 
 TODO
 
-# Write a Java Application for interaction of the database and TZ-EasyBuch
+## Write a Java Application for interaction of the database and TZ-EasyBuch
 
 TODO
