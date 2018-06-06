@@ -8,6 +8,8 @@ On Windows I kept all my passwords in KeePass. KeePass also runs with Linux usin
 
 After starting KeePass I had to find my key file, which resides on the Windows NTFS drive. Klicking "My Computer" takes you to a huge list of entries like `HDD (none, sdb1)`. I could only guess which drive it is, but then I have the full directory tree available, found my key file and could open it using the normal credentials.
 
+To change the language to German I first selected Tools -> Change language. Initially only English was offered here. Then I klicked the "Download more languages..." button which opened my browser on a page offering a huge selection of languages. I downloaded the proper language pack and extracted the zip file. It contained a single file called `German.lngx`. Now you need to open a Dolphin in superuser mode. This can easily be done from the start menu and the "System" submenu. Navigate to the folder `/usr/lib/keepass` and create a folder called `Languages`. Then copy or move the language file to this directory. Now you can select the newly installed language.
+
 # Kee
 
 But now I want to use these user names and passwords in Firefox using the Kee plugin. The plugin could easily be found and installed using the plugins page. Further instructions are then given. As on Windows, you have to copy the `KeePassRPC.plgx` file to the `plugins` directory of KeePass.
