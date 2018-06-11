@@ -51,4 +51,4 @@ UUID=CA04184404183643   /windows/d    ntfs-3g user,users,uid=myuser,gid=users,um
 
 Die UUID muss natürlich der oben ermittelten entsprechen, und der Username `myuser` sollte durch denjenigen User ersetzt werden, dem die Dateien auf der Partition gehören sollen. Das ist nämlich ein Punkt, den es zu beachten gilt: NTFS hat ein ganz anderes Rechtesystem als Linux. Beim Mounten wird deshalb ein Linux-User ausgewählt, der als Eigentümer der Dateien gilt. Schaut man sich neu angelegte Dateien dann unter Windows an, dann hat dort jeder Benutzer alle Zugriffsrechte auf solche Dateien. Die Rechte bestehender Dateien werden jedoch nicht verändert.
 
-Nach dem nächstenb Reboot ist das Laufwerk jedenfalls automatisch gemountet und Dolphin zeigt von Anfang an ein grünes Icon.
+Nach dem nächsten Reboot ist das Laufwerk jedenfalls automatisch gemountet und Dolphin zeigt von Anfang an ein grünes Icon.
