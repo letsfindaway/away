@@ -16,17 +16,19 @@ Nach der Installation wurden noch jede Menge Updates installiert. Und dann war d
 
 # Dual boot
 
-The installer finally installed a grub bootloader on the new SSD which offers to select from either Linux or Windows. I therefore activated the new hard disk as first boot device in the BIOS setup and selected to have Windows as default for the time being. This adjustment can easily be done from the Yast bootloader configuration.
+Der Installer hat auzf der neuen SSD auch gleich den GRUB Bootloader installiert der nun anbietet Linux oder Windows zu booten. Im BIOS habe ich deshalb die neue SSD als Boot Device eingetragen. Dadurch wird GRUB gestartet, und dann kann ich wählen, welches Betriebssystem denn laufen soll. Die Standardvorgabe ist erst einmal Linux. Das kann man über YaST leicht ändern, und um die anderen Familienmitglieder nicht unnötig zu verwirren, habe ich erst einmal Windows als Standard eingestellt.
 
-# Mounting the NTFS file system
+Jetzt, schon einen Monat später, ist Linux aber schon so weit, dass ich die Standardeinstellung wieder zurück auf Linux stellen konnte!
 
-When startibng the Dolphin file manager the Windows partitions are indicated under "Devices" with a red icon. When you klick on this icon you have to enter your password. The partition is then automatically mounted under some subdirectory of `/run/media`. However this procedure has to be followed after each reboot.
+# NTFS Dateisystem einbinden
 
-I wanted to have the partition mounted immediately after booting Linux. Do achieve this I followed the following steps:
+Startet man den Doplhin File Manager, dann erscheint die NTFS-formatierte Festplatte, auf der meine Windows Datedn liegen, dort mit einem roten Icon. Ein Klick darauf verlangt die eingabe des Passwortes, dann wird die Partition automatisch unter `/run/media` eingebunden. Diese Prozedur muss man aber nach jedem Neustart wiederholen.
 
-First create a directory which can act as mount point for the partition. I chose `/windows/d` and created the directory with the command `sudo mkdir -p /windows/d`
+Ich wollte aber, dass die Partition automatisch nach dem Booten zur Verfügung steht - ohne Passwortabfrage. Dazu bin ich wie folgt vorgegangen:
 
-Then open a Konsole and enter the command `ls -l /dev/disk/by-uuid/`. This gives you some output like
+Zuerst habe ich ein Verzeichnis angelegt, das als dauerhafter Mount Point für die Partition dienen kann. `/run/media` eignet sich dazu nicht, da dieses Verzeichnis ja nicht persistent ist. Meine Wahl viel auf `/windows/d` und ich habe eine `Konsole` geöffnet und das Verzeichnis mit dem Befehl `sudo mkdir -p /windows/d` angelegt.
+
+Dann habe ich dort nach der UUID des Laufwerks gesucht. Das Kommando `ls -l /dev/disk/by-uuid/` liefert etwa folgende Ausgabe:
 
 ```
 lrwxrwxrwx 1 root root 10  4. Mai 15:07 4078961A78960EB2 -> ../../sda2
@@ -36,16 +38,17 @@ lrwxrwxrwx 1 root root 10  4. Mai 15:07 86941f9b-dd5d-47f8-8b25-346f91850258 -> 
 lrwxrwxrwx 1 root root 10  4. Mai 15:07 CA04184404183643 -> ../../sdb1
 lrwxrwxrwx 1 root root 10  4. Mai 15:07 e506251e-497e-4780-800b-7a1d0e4a2260 -> ../../sde1
 ```
-`sda` is most probably the drive where your Windows boot partition is located, which corresponds to C:. I can see two partitions here, where one of them is a system rescue partition, the other is C:.
 
-`sdb` is probably the second hard drive, mapped to D: under windows. This is the drive I want to access under Linux. Copy the UUID to the clipboard.
+`sda` ist höchst wahrscheinlich dasd Laufwerk mit der Windows Boot Partition. Hier sind zwei Partitionen auszumachen, wobei eine wohl eine System rettungspartition ist und die andere das Drive C:. 
 
-Then edit the `/etc/fstab` file using the command `SUDO_EDITOR=kate sudoedit /etc/fstab`. Add the following line:
+`sdb` ist wohl meine Festplatte, also Drive D: unter Windows. Dieses Laufwerk möchte ich unter Linux ansprechen können. Ich habe die UUID markiert und in die Zwischenablage kopiert.
+
+Die braucht man jetzt nämlich, um den richtigen Eintrag in der `/etc/fstab` hinzuzufügen. Dazu habe ich Kate als Superuser per `SUDO_EDITOR=kate sudoedit /etc/fstab` gestartet und die folgende Zeile hinzugefügt:
 
 ```
 UUID=CA04184404183643   /windows/d    ntfs-3g user,users,uid=myuser,gid=users,umask=0002  0 0
 ```
 
-Replace the UUID with the value you got in the previous step and the uid `myuser` with the name of the user who should own the files on this drive. 
+Die UUID muss natürlich der oben ermittelten entsprechen, und der Username `myuser` sollte durch denjenigen User ersetzt werden, dem die Dateien auf der Partition gehören sollen. Das ist nämlich ein Punkt, den es zu beachten gilt: NTFS hat ein ganz anderes Rechtesystem als Linux. Beim Mounten wird deshalb ein Linux-User ausgewählt, der als Eigentümer der Dateien gilt. Schaut man sich neu angelegte Dateien dann unter Windows an, dann hat dort jeder Benutzer alle Zugriffsrechte auf solche Dateien. Die Rechte bestehender Dateien werden jedoch nicht verändert.
 
-After the next reboot the drive will be automatically mounted and Dolphin shows a green icon from the beginning.
+Nach dem nächstenb Reboot ist das Laufwerk jedenfalls automatisch gemountet und Dolphin zeigt von Anfang an ein grünes Icon.
