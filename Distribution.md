@@ -1,20 +1,18 @@
-# Selection of Linux distribution
+# Auswahl der Linux Distribution
 
-## My requirements and expectations
+## Meine Anforderungen und Erwartungen
 
-Selecting the right Linux distribution is very often a matter of taste. For me the following points have been in focus:
+Die Auswahl der richtigen Linux Distribution ist nicht nur eine technische Frage, sondern oft auch eine Frage des persönlichen Geschmacks und der eigenen Vorlieben. Für mich standen die folgenden Punkte im Vordergrund:
 
-* Stable and well maintained
-* Support of KDE (that's just a personal taste!)
-* Expected to be long lasting
-* Easy to install and administrate
+* Stabilität und gute Wartung
+* Langfristige Unterstützung von KDE (das ist sicher mein persönlicher Geschmack!)
+* Hohe Lebensdauer und gute Zukunftsperspektive
+* Leichte Installation und Wartung
 
-So I was focussing on the "big distributions" like Ubuntu, Red Hat, Suse, Debian, ... They are known to live for quite some time and can be expected to do so in the future. I did not want to change the distribution in the future very often, so a stable, future-proof and well maintained basis is a must.
+Ich habe mich deshalb auf die großen Distributionen konzentriert, wie Ubuntu, Red Hat, Suse, Debian, ... Die gibt es alle schon seit längerer Zeit und da erwarte ich, dass diese auch am besten eine langfristige Unterstützung garantieren können. Ich möchte nicht ständig die Distribution wechseln, deshalb íst Zukunftssicherheit und gute Wartung ein absolutes Muss.
 
-KDE ist just my personal favorite. I'm sometimes using Ubuntu at work, and I could never get used to the Unity desktop. Ok, this is changing now and the're using Gnome, but anyway... The Kubuntu alternative didn't seem to me stable and long-lasting enough to be a real alternative.
+KDE ist einfach mein persönlicher Favorit. In der Arbeit benutze ich öfter Ubuntu, aber mit dem Unity Desktop konnte ich mich nie so richtig anfreunden. Das soll sich jetzt zwar ändern und Gnome soll der Standard Desktop werden, aber trotzdem... Die Kubuntu Alternative schien mir nicht stabil und dauerhaft genug zu sein um in die engere Wahl zu kommen.
 
-Debian is the "mother of all distributions", but not as easy to use and administrate as others. I wanted to have some more guidance.
+Ich will und kann hier nicht eine komplette Diskussion aller Distributionen vornehmen und meine Wahl fiel dann schließlich auch mehr aus einem Bauchgefühl heraus als nach einer wissenschaftlichen Analyse. Ich weiß, dass sich jede Linux Installation sehr weitreichend nach eigenen Wünschen ändern und konfigurieren lässt, verschiedene Desktops sind kein Problem. Trotzdem, ich wollte so nahe wie möglich am Default einer Distribution bleiben, weil ich die Erwartung habe, dass ich dann den besten Support erhalten werde.
 
-Red Hat is focussed on enterprises. No, I'm a personal user and do not expect that level of support they are offering, but instead wanted a distribution with good community support.
-
-So finally my choice was OpenSuse. The're committed to KDE (amongst others), have good community support, provide an upgrade path, are quite stable, and have a nice Logo ;-)
+Meine Wahl fiel schließlich auf openSUSE. Sie führen KDE als Standard-Oberfläche (neben anderen), haben eine gute Community, besonders hier in Deutschland, haben einen klaren Plan für Upgrades, sind recht stabil, und haben ein hübsches Logo ;-)
