@@ -1,11 +1,13 @@
-# List of commonly used software
+# Welche Software benutze ich?
 
-The programs used in daily business are the ones which are most important to have a good counterpart on the Linux side. Here I provide a list of my important applications and some first ideas on how to replace them (if at all). The list is divided into three categories: Things which are easily available on Linux, things which could probably run in wine and things where I will look for a replacement.
+Es gibt Programme, die braucht man jeden Tag. Da ist es natürlich am Wichtigsten, dass es eine gute Entsprechung auf Linux gibt. Andere werden nur gelegentlich benutzt, aber auch da sollte geklärt sein, wie diese Aufgaben zukünftig erledigt werden können. Der Rechner wird in der Tat hauptsächlich für Dinge verwendet, die so im weitesten Sinne "Home Office" sind: Browser, e-Mail, Fotos verwalten sind sicher die Top-Applikationen. Steuererklärung, Buchhaltung für die freiberufliche Tätigkeit meiner Frau und Banking sind ebenso essentiell für mich. Dann habe ich noch ein paar Bastelprojekte, aber da mache ich mir die wenigsten Sorgen. Spiele sind definitiv nicht mein Anwendungsgebiet.
 
-## Available on Linux
+Ich habe die Liste mal gleich in drei Kategorien eingeteilt: was gibt es einfach genauso auf Linux, wofür wäre wine geeignet und wo schaue ich mich nach einem adäquaten Ersatz um.
+
+## Auf Linux verfügbar
 
 * [Firefox](Firefox.md)
-* [KeePass and the Kee plugin for Firefox](Firefox.md) (runs with mono)
+* [KeePass und das Kee plugin für Firefox](Firefox.md) (läuft mit mono)
 * [Thunderbird](Thunderbird.md)
 * Cewe Foto
 * OwnCloud client
@@ -14,19 +16,19 @@ The programs used in daily business are the ones which are most important to hav
 * QtCreator
 * Arduino IDE
 
-## Probably runs on Wine
+## Läuft vielleicht unter Wine
 
 * [Picasa](Picasa.md)
 * [Microsoft Word](Office2010.md)
 * [Microsoft Excel](Office2010.md)
 * [Microsoft Powerpoint](Office2010.md)
 * [Microsoft Access](Access.md)
-* [TZ-EasyBuch (Bookkeeping, give it a try on Wine)](Access.md)
+* [TZ-EasyBuch (Buchhaltungssoftware, ich versuche es mal auf Wine)](Access.md)
 * SteuerSparErklärung
 
-## Looking for an alternative
+## Da brauche ich eine Alternative
 
-* [VR NetWorks Banking programm with HBCI chipcard support](Alternatives.md)
+* [VR NetWorks Banking Programm mit HBCI Chipkarten-Unterstützung](Alternatives.md)
 * [BackupServiceHome](Alternatives.md)
 * [Notepad++](Alternatives.md)
 * [Putty](Alternatives.md)
