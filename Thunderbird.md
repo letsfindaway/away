@@ -1,11 +1,9 @@
 # Thunderbird
 
-For managing my e-mail I used Thunderbird for years - and I just wanted to continue with that. Thunderbird is not installed by default, but of course also available as package from the YaST software manager. Some easy clicks and it was installed.
+Mails lese ich schon seit jahren mit Thunderbird, und das möchte ich weiterhin tun, auch wenn die KDE einen eigen Mail Client mitbringt. Mir geht es aber in erster Linie um Kontinuität, und auch darum, die heruntergeladenen Mails weiterhin zugreifen zu können. Ich gehöre nämlich zu der seltenen Spezies, die ihre E-Mails nicht auf dem Sever liegen lässt und per IMAP zugreift, sondern per POP3 herunterlädt und auf dem eigenen Rechner ablegt. Auch E-Mails sind für mich sensible persönliche Daten, und über diese will ich nun mal selber Kontrolle behalten!
 
-I'm one of those people who download their mail from the server and delete them there using the good old POP protocol. So I have all my former e-mails archived on my own computer and backup system. To have a real working dual boot system I want to use the same folders for the downloaded e-mails.
+Thunderbird ist standardmäßig nicht installiert, aber natürlich im Repository verfügbar. So sind es nur ein paar Klicks um über YaST und den Software Manager das Paket zu suchen und zu installieren.
 
-To share the folder, I first entered my e-mail address and password. After Thunderbird successfully connected to the server, the program gave me the choice of IMAP or POP3. Here I clicked on the "advanced" options and further to extended options. Here I selected "Local folders" on the left and could then enter the path to the local e-mail folders on my Windows NTFS drive.
+Die Mail-Folder liegen bei mir auf dem Windows Datenlaufwerk. Der Linux-Thunderbird soll nun genau die gleichen Dateien verwenden, so dass Mails sowohl auf Windows als auch auf Linux abgerufen werden können und auf beiden Betriebssystemen zur Verfügung stehen. Dazu bin ich wie folgt vorgegangen:
 
-Before giving Thunderbird avvess to these folders I made a backup copy - just in case...
-
-But all I had to do was to adjust the settings to my personal preferences and Thunderbird was working just as on Windows...
+Zuerst habe ich im Setup meine E-Mail-Adresse und Passwort eingegeben. Nach der erfolgreichen Kontaktaufnahme mit dem Server konnte ich das Protokoll wählen: IMAP oder POP3. Wie gesagt habe ich da POP3 gewählt. Dann ging es weiter zu den erweiterten Optionen und noch einmal zu "Erweitert...". Dort habe ich dann "Lokaler Ordner" ausgewählt und konnte dann den Pfad zu meinen gespeicherten E-Mails angeben.
