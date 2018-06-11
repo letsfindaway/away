@@ -1,18 +1,18 @@
-# Download distribution
+# Download  der Distribution
 
-First I downloaded the x86_64 DVD image from [https://software.opensuse.org/distributions/leap](https://software.opensuse.org/distributions/leap). This page also contains useful links about how to burn a DVD from an image under Windows or how to create a bootable USB stick.
+Zunächst habe ich das x86_64 DVD Image von [https://software.opensuse.org/distributions/leap](https://software.opensuse.org/distributions/leap) heruntergeladen. Auf dieser Seite findet man auch nützliche Hinweise darauf, wie man daraus eine DVD brennt oder einen bootbaren USB-Stick erstellt.
 
-I decided to create a DVD. Under Windows 7 this is very easy: right-click on the image file and select "Burn DVD". Easy!
+Ich habe mich für die DVD entschieden. Das geht unter Windows 7 ganz leicht: Rechtsklicka auf das Image und "DVD brennen" auswählen. Ich habe dann noch den Haken bei der Option gesetzt, das Ergebnis zu verifizieren. Das war sehr nützlich, denn der erste Rohling machte gleich Probleme und war nichtz benutzbar. Beim zweiten Mal klappte alles reibungsfrei.
 
 # Installation
 
-Then I booted from the DVD and followed the default installation procedure. As I had an additionad SSD installed in my computer, I offered only this drive to the installer. However the proposed partitioning was to use a 40GB root partition and to allocate the rest to the /home pratition. In my case however most of my data is on an extra drive - the one where they are from the Windows installation, and they also will be there after the Linux migration. On `/home` I only expect a larger amount of data in the dot directories, where profile data, caches and other will be stored.
+DVD eingelegt, Boot Menu aufrufen und vond er DVD starten. Im wesentlichen habe ich mich dann an die Standardvorgaben gehalten. Nachdem ich eine zusätzliche SSD installiert hatte, habe ich dem Installer im entsprechenden Dialog diese angeboten. Die Standardvorgabe, von den 500GB nur 40GB für die Root Partition zu verwenden und den gesamten Rest der `/home` Partition zuzuschlagen wollte ich aber ändern. Denn ein Großteil meiner Daten liegt ja auf einer weiteren getrennten Festplatte. `/home` muss also nur die Linux-spezifischen Daten enthalten. Die Fotosammlung bleibt z.B. aber auf der Festplatte.
 
-In order to adjust the sizes I had to use the expert mode to define the partitions. This is however also straight forward. In my case I used 300GB of the 500GB drive for root and the rest for home. I confirmed the choices to use a btrfs for the root partition and a xfs for the home partition, as I wanted to stick as close as possible to the original choices and I did not have any reason to switch to another file system.
+Um die Größe der Partitionen zu ändern muss man den Experten-Modus wählen. Davon bin ich zuerst auch zurückgeschreckt, aber auch hier wird man gut geführt. Ich habe im Assistenten lediglich die Größen verändert und die Auswahl von btrfs für das Root Dateisystem und xfs für die `/home` Partition beibehalten. Über Vor- und Nachteile von Dateisystemen lässt sich trefflich stretien - mein Argument war, dass ich mich möglichst weitgehend an die Standardeinstellungen von SUSE halten und nicht grundlos davon abweichen wollte.
 
-Besides that, there was nothing special in the installation procedure, it just worked! 
+Sonst gab es nichts besonderes bei der Installation - hat einfach funktioniert!
 
-After installation, the system installed a bunch of updates. Then everything was ready!
+Nach der Installation wurden noch jede Menge Updates installiert. Und dann war das System fertig!
 
 # Dual boot
 
