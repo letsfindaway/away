@@ -1,27 +1,39 @@
-## Away from Windows
+Ich habe diese Seiten vor einiger Zeit auf Englisch gestartet. Jetzt stelle ich aber fest, dass sie
 
-After using Windows since version 2.1 I have now decided that Windows 7 is the last version I will ever use. An operating system where the Manufacturer adds and removes features at will, sends telemetry data to his servers without noting and uses the users as some kind of beta testers for the enterprise customers is not what I want to have on my computer.
+1. hauptsächlich für meine eigene Dokumentation des Vorgehens nützlich sind und
+2. die gewählte Distribution openSUSE eine sehr große deutsche Community hat und
+3. es sich für michauf deutsch einfach leichter schreibt
 
-On the other side: yes, there are really some things I got accustomed to over the last years, and I'm not sure how daily live with a Linux computer can look like.
+Deshalb stelle ich die Seiten nach und nach auf Deutsch um und füge neuen Inhalt auch gleich in meiner Muttersprache hinzu.
 
-However I think I'm sufficiently skilled to solve the upcoming problems. So I decided to go the way ...
+## Away from Windows - weg von Windows
 
-## A way to Linux
+Ich habe Windows zuhause seit der Version 2.1 benutzt. Jetzt habe ich mich aber dazu entschlossen, dass Windows 7 die letzte Version sein wird, die ich zuhause einsetzen werde. Was Microsoft mit seinen Kunden spätestens seit Version 10 anstellt, ist für mich nicht mehr tragbar: Features kommen und gehen wie der Hersteller es will, Sicherheitseinstellungen werden nach Gutdünken verändert, und Privatkunden dienen wohl irgendwie als Betatester für die zahlenden Geschäftskunden. Das mache ich nicht mehr mit.
 
-From today I'm starting a soft migration to Linux, and I plan to be finished before the support for Windows 7 ends. During this phase I will be able to boot both operating systems. I want to document and share my experiences and steps. First of all for myself, because I might have to reproduce this procedure on other computers I manage in my family. But of course also for others playing around with the idea to say good bye to Windows and hello to Linux!
+Andererseits: ja, an Einiges aus der Windows Welt habe ich mich in den vielen Jahren schon gewöhnt und ich weiß noch nicht wirklich, wie sich Linux bei mir im täglichen Einsatz schlagen wird. Und schließlich muss das Endergebnis nicht nur mich zufriedenstellen, sondern auch andere Familienmitglieder, mit denen der Rechner gemeinsam genutzt wird.
 
-## Step by step
+Aber ich bin kein totaler Linux Neuling, sondern habe beruflich immer wieder damit zu tun. Ich fühle mich also gerüstet, die Herausforderung anzunehmen.
 
-Step by step I'm documenting my way through this transition.
+## A way to Linux - Der Weg zu Linux
 
-### Preparation
+Heute (Anfang Mai 2018) starte ich einen weichen Übergang zu Linux. Ich will damit fertig sein, bevor der Support für Windows 7 endet. Zwischenzeitlich werde ich eine Dual-Boot Konfiguration einrichten, so dass ich beide Betriebssysteme parallel nutzen kann und meine Anwendungen Stück für Stück migrieren. Ziel ist es dann, dass Windows komplett vom Rechner verschwindet und auch nicht mehr irgendwo in einer VM läuft.
 
-* [The hardware - an upgrade to my computer](Hardware.md)
-* [Selection of Linux distribution](Distribution.md)
-* [List of most used software and ideas how to replace it](Software.md)
+Hier dokumentiere ich meine Erfahrungen und Schritte. Zunächst für mich selber, denn da stehen noch zwei weitere Rechner in der Familie an, wo ich diese Schitte dann nachvollziehen möchte. Aber natürlich auch für andere, die mit dem Gedanken spielen, auf Linux umzustellen.
+
+## Schritt für Schritt
+
+Schritt für Schritt dokumentiere ich den Weg dieses Übergangs. Nicht immer in der zeitlichen Reihenfolge, in der ich ihn durchgeführt habe, sondern so, wie er sinnvoll nachvollzogen werden kann.
+
+### Vorbereitung
+
+* [Die Hardware - ein Upgrade für meinen Computer](Hardware.md)
+* [Auswahl der Linux Distribution](Distribution.md)
+* [Liste meiner meistgenutzen Software und Ideen für den Ersatz](Software.md)
 
 ### Installation
 
-* [Linux installation and Windows/Linux dual-boot](Installation.md)
+* [Linux Installieren und Windows/Linux dual-boot einrichten](Installation.md)
 
-### Software migration
+### Software Umstellung
+
+Hinter der [Liste meiner meistgenutzen Software und Ideen für den Ersatz](Software.md) habe ich auch gleich die Erfahrungen mit der Umstellung dokumentiert.
