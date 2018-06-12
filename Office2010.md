@@ -1,6 +1,10 @@
 # Microsoft Office 2010
 
-I have used the Microsoft Office suite a lot under Windows, and - even if there is LibreOffice available by default - I did want to install the Microsoft suite under Linux as well.
+Die schon in die Tage gekommene Microsoft Office Suite hat mich unter Windows nun schon länger begleitet. Hauptsächlich sind es Word Dokumente und einige Powerpoint Präsentationen. Daneben noch ein paar Excel Tabellen. Viele Freunde und Bekannte nutzen diese Tools auch, und so sind `.docx`, `.pptx` und `.xlsx` eben auch Formate für den Dokumentenaustausch. Natürlich kann auch LibreOffice alle diese Formate lesen und schreiben, aber nicht immer mit dem gewünschten Ergebnis. Deshalb wollte ich die Microsoft Office Suite wenn möglich auch unter Linux weiter verwenden.
+
+Wie bei Picasa war auch hier PlayOnLinux das Hilfsmittel meiner Wahl. Hier gibt es fertige Skripte zum Setup der passenden Umgebung, auch für Office 2010.
+
+Ich habe also PlayOnLinux gestartet, im Install-Menu 
 
 To run Windows applications under Linux you need wine - but you're even better off with installing PlayOnLinux, which is an application which can manage multiple parallel versions of wine and comes with a set of scripts to install commonly used software. Many games, but also Microsoft Office 2010.
 
