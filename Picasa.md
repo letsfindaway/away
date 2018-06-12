@@ -1,17 +1,24 @@
 # Picasa
 
-The photo manager Picasa is one of the programs I would really miss. It is simple and easy to use, but still allows the most important image manipulations. All effects can be undone and the original photo is never modified.
+Den Bildermanager Picasa würde ich wirklich vermissen, wenn er unter Linux nicht verfügbar wäre. Picasa ist einfach zu benutzen und gestattet doch auf simple Weise die wichtigsten Bildbearbeitungen. Und jeder Bearbeitungsschritt kann auch später wieder rückgängig gemacht werden, weil das Originalfoto nicht verändert wird.
 
-Fortunately, PlayOnLinux seems to support Picasa out of the box. However when I tried to install it this way, I always failed at a point where PoL wanted to download a 300MByte file needed for Internet Explorer. After 192MBytes of download it stopped reproducably. But why is Internet Explorer installed when I wanted to install Picasa?
+Eine echte Linux-Version von Picasa gibt es nicht. Aber PlayOnLinux - eine grafische Oberfläche für die Installation und Verwaltung von Programmen unter Wine, unterstützt Picasa anscheinend.
 
-Searching on the Internet reveals that Picasa uses parts of IE to manage the sign in at Google. However do I really want this? Google Web Album is no longer available and I see absolutely no advantage for signing in. So my second try was to install Picasa without Internet Explorer.
+PlayOnLinux selbst ist einfach installiert, die openSUSE Repositories bieten es an. Bei der Installation von Picasa jedoch wollte PlayOnLinux eine 300MByte Datei für den Internet Explorer herunterladen. Nach 192MByte brach dieser Download reproduzierbar ab. Aber wozu brauche ich den Internet Explorer? Ich wollte doich nur Picasa installieren!
 
-I first started PlayOnLinux and went to Tools -> Manage wine versions. Here I installed the newest available version of wine, which was 3.8. I then clicked on Install and selected the link at the bottom: Install a program that is not listed. In the following dialog I selected to use a new virtual drive and called it "Picasa". I selected the x86 version for a 32-bit wine and finally the Picasa setup program. Installation runs easily and without problem.
+Eine Suche im Internet ergab, dass Picasa Teile des Internet Explorers benutzt, um sich bei Google anzumelden. Aber erstens gibt es die Google Webalben nicht mehr und zweitens würde ich ja genau das gerne vermeiden. Also zweiter Versuch: Picasa ohne Google.
 
-I then selected Picasa and clicked on "Configure", went to the tab "wine" and clicked "Configure wine". There I went to the "Drives" tab and added a drive D pointing to `/windows/d` where I have mounted my NTFS formatted hard disk with all the photos. It is important to use the same drive letters as on Windows, because the Picasa database storing all the album information contains absolute paths including drive letters.
+Diesmal bin ich im Installationsdialog von PlayOnLinux auf den Button "Installiere ein Programm, das nicht aufgeführt ist" gegangen, habe einen neuen Prefix für eine 32-bit Version eingericht mit der Systemversion von Wine initialisiert und dann das Setup-Programm von Picasa 3.9 ausgeführt. Das ging völlig problemlos.
 
-After starting Picasa a very first time without scanning my drives I found out that the Picasa database is located under `~/.PlayOnLinux/wineprefix/Picasa/drive_c/users/<username>/Local\ Settings/Application\ Data/Google/` in the two folders `Picasa2` and `Picasa2Albums`. I located these folders also on my Windows installation. Here I could find it at `c:\Users\<username>\AppData\Local\Google`. I then just copied these two folders, ovewriting what was already there at the destination.
+Als nächsten Schritt habe ich in PlayOnLinux Picasa ausgewählt, bin auf "Konfigurieren" gegangen und von dort zu "Wine konfigurieren". Im "Laufwerke" Tab habe ich das Laufwerk D: ausgewähl und ihm den Pfad `/windows/d` zugewiesen, wo ja meine NTFS Festplatte mit den Daten gemountet ist. Es ist wichtig, genau den gleichen Laufwerksbezeichner zu nehmen wie unter Windows, weil die Picasa Datenbank alle Albuminformationen mit absoluten Pfaden speichert. Diese Albuminformationen wollte ich ebenfalls migrieren.
 
-When I started Picasa the next time, all my settings, albums, photos, etc have been available exactly as under Windows!
+Dazu habe ich erst mal Picasa unter Wine gestartet, ohne die Laufwerke nach Fotos durchsuchen zu lassen. Dann habe ich gesucht, wo Picasa die Albuminformationen ablegt. Das war:
 
-One mior drawback: because I did not install Internet Explorer, a message box is popping up each time I start Picasa telling me that it is unable to sign in at Google. It needs that extra click to get rid of this box, but all the rest works for me.
+* unter Linux: `~/.PlayOnLinux/wineprefix/Picasa/drive_c/users/<username>/Local\ Settings/Application\ Data/Google/`
+* unter Windows: `c:\Users\<username>\AppData\Local\Google`
+
+Dort gibt es jeweils die beiden Ordner `Picasa2` and `Picasa2Albums`. Den gesamten Inhalt der beiden Ordner habe ich dann einfach von Windows nach Linux kopiert, und dabei den alten Inhalt unter Linux überschrieben.
+
+Beim nächsten Start von Picasa unter Linux waren alle meine Alben, Einstellungen und Fotos da, genau wie unter Windows!
+
+Ein kleiner Nachteil: weil ich den Internet Explorer nicht installiert habe, gibt es bei jedem Start eine Message Box mit dem Hinweis, dass die Anmeldung bei Google fehlgeschlagen ist. Den muss man wegklicken. Aber das mache ich gerne und erinnert mich jedesmal daran, dass ich damit nicht nur Microsoft, sondern auch Google ein bisschen weniger meiner Daten überlasse.
