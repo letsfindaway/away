@@ -22,3 +22,9 @@ Dort gibt es jeweils die beiden Ordner `Picasa2` and `Picasa2Albums`. Den gesamt
 Beim nächsten Start von Picasa unter Linux waren alle meine Alben, Einstellungen und Fotos da, genau wie unter Windows!
 
 Ein kleiner Nachteil: weil ich den Internet Explorer nicht installiert habe, gibt es bei jedem Start eine Message Box mit dem Hinweis, dass die Anmeldung bei Google fehlgeschlagen ist. Den muss man wegklicken. Aber das mache ich gerne und erinnert mich jedesmal daran, dass ich damit nicht nur Microsoft, sondern auch Google ein bisschen weniger meiner Daten überlasse.
+
+# Importieren von Bildern
+
+Auch das Importieren von Bildern ist mühsamer als unter Windows. Wenn ich die Kamera per USB anschließe, dann habe ich sie bisher nicht in Picasa finden können. Ich muss also die SD Karte in den Kartenleser stecken. Und da organisiert meine Kamera die Bilder in mehrere Ordner. Ich muss jeden Ordner einzeln importieren. Picasa unter Wine kann die Kamera nicht direkt als "Kamera" erkennen, und auch die SD Karte nicht direkt als eine Karte, die aus einer Kamera stammt, so wie das unter Windows war.
+
+Das sind ein paar Klicks mehr als unter Windows, aber damit kann ich leben.
