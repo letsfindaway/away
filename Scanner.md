@@ -2,6 +2,8 @@
 
 ## Installation des Brother Scanner Treibers
 
+Ich habe einen Brother DCP-9020CDW Laser-Multifunktionsgerät, das Drucken und Scannen kann. 
+
 ## Installation von gscan2pdf
 
 Einbinden des Perl Devel Repositories
