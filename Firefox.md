@@ -21,3 +21,9 @@ Um die Sprache zu ändern habe ich zuerst im Menu Tools -> Change language ausge
 Kee ist das Firefox Plugin, das Zugriff auf die in KeePass gespeicherten Daten erlaubt. Man kann es einfach über den Firefox Plugin Manager installieren und erhält dann weitere Informationen zum Vorgehen. Wie unter Windows, so muss man auch unter Linux die Datei `KeePassRPC.plgx` in ein Verzeichnis `plugins` unterhalb von `/usr/lib/keepass` kopieren. Der Administrator-Dolphin aus dem vorigen Abschnitt leistet ahci hier gute Hilfe!
 
 Nach dem nächsten Neustart von Firefox muss man noch - wie von Windows gewohnt - einen Key von Kee in ein Popup-Fenster von KeePass kopieren, um den Zugriff auf die Daten zu erlauben. Dann funktioniert alles so wie von Windows gewohnt.
+
+# Netflix
+
+Ab und zu will ich auch Filme auf Netflix anschauen. Doch zunächst fehlen openSUSE die passenden Codecs dazu. Deshalb ist es notwendig, diese erst mal zu installieren. Das Stichwort heißt "Packman repositories".
+
+Am einfachsten geht es, wenn man [dieser Packman Anleitung](http://opensuse-guide.org/codecs.php) folgt und alle Konflikt-Nachfragen der Paketverwaltung stets mit dem ersten angebotenen Punkt beantwortet. Dann muss man noch in Firefox das Abspielen DRM-geschützter Inhalte aktivieren. Das geht in den Einstellungen, Allgemein, und dann die Checkbox "Inhalte mit DRM-Kopierschutz wiedergeben" setzen. Danach gehen YouTube, Netflix und Co in Firefox.
