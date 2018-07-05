@@ -40,15 +40,15 @@ Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würd
 
 ## Kate: alternative for Notepad++
 
-The KDE standard text editor Kate mainly has what I need. So I will currently not look for something else.
+Der KDE Standard Text Editor Kate hat alles was ich erst mal brauche.
 
 ## Putty
 
-The console `ssh` client will do it for the time being. Perhaps I have to dig a little bit into the offered features to make it easier to manage several often used hosts.
+Der Konsolen - `ssh` Client ist eigentlich ausreichend für die wenigen Male wo ich eine ssh-Verbindung brauche. Also auch hier kein Ersatzbedarf.
 
 ## WinSCP
 
-`Krusader` is an andvanced file manager for the KDE desktop which also support `SFTP`.
+`Dolphin`, der Standard File Manager von KDE unterstützt bereits von Hause aus `SFTP`. In der Ansicht mit zwei nebeneinanderliegenden Verzeichnissen ist das Kopieren einfach und bequem möglich. 
 
 ## Ulead PhotoImpact
 
