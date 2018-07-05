@@ -25,7 +25,18 @@ ich denke als deutscher Anwender mit Anforderungen, die über [Hibiscus](https:/
 
 ## BackupServiceHome
 
-TODO
+Beim Backup habe ich lange rumgesucht. Schließlich habe ich zwei Favoriten gefunden:
+
+* backintime
+* borg
+
+Backintime kommt mit einer netten grafischen Oberfläche. Wie der Name schon sagt, kann man den Zustand der gesicherten Verzeichnisse zu jedem Backup grafisch anschauen und leicht Dateien zurückkopieren. Im Hintergrund arbeitet rsync, das für inkrementelle Backups zuständig ist. Auch ohne das Tool kann man alle Dateien auf der Sicherungsplatte als normale Dateien ansprechen. Für nicht geänderte Dateien wir dein Hardlink auf die letzte Version angelegt.
+
+borg besticht dagegen durch viele Features: Backups werden dedupliziert, komprimiert und verschlüsselt. Die Dateien auf der Platte sind dann aber nur Chunks von 500MByte Größe. Zugreifen kann man auf die Sicherungen, indem man sie wie ein Filesystem mountet. Dann hat man ebenfalls Zugriff auf alle Dateien zu allen Sicherungszeitpunkten -- allerdings braucht man dazu eben borg. Ohne das Tool ist kein Zugriff möglich. Eine schöne grafische Oberfläche gibt es aber nicht.
+
+Schließlich habe ich mich für borg entschieden. Die Deduplizierung verringert die Größe des Backups paralleler wine Prefixe. Sichert man sehr viele Dateien (ich habe alleine 40.000 Fotos!), dann sind die Hardlinks auch keine schöne Sache und das Erzeugen dieser Links dauert länger als der ganze restliche Backup-Vorgang.
+
+Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich backintime empfehlen. Wer mehr Features haben will, der könnte mit borg sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
 
 ## Kate: alternative for Notepad++
 
