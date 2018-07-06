@@ -16,6 +16,10 @@ Ich habe die Liste mal gleich in drei Kategorien eingeteilt: was gibt es einfach
 * QtCreator
 * Arduino IDE
 
+## Hat mich etwas Zeit gekostet
+
+* [XMind](XMind.md) Mindmapping Software
+
 ## Läuft vielleicht unter Wine
 
 * [Picasa](Picasa.md)
