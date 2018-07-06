@@ -35,6 +35,21 @@ openFile
 * den Inhalt des Ordners `~/XMind/fonts` in einen neu zu erstellenden Ordner `/usr/share/fonts/truetype/xmind/` kopieren
 * den Befehl `sudo fc-cache -f` ausführen, um den Font Cache neu aufzubauen
 * von https://software.opensuse.org//download.html?project=home%3Asdrahn%3Aktrepte&package=xmind das experimentelle xmind Paket herunterladen, mit `ark` öffnen und die Dateien von `share` nach `.local/share` kopieren.
-* `xmind.desktop` an die neue Versionsnummer 8 anpassen
-* Dort außerdem die Exec-Zeile anpassen: `Exec=cd /home/family/XMind/XMind_amd64 && ./XMind %U` oder ein Starterskript nach `~/bin` legen.
+* `xmind.desktop` an die neue Versionsnummer 8 und den Pfad anpassen, z.B. so:
 
+```
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=XMind
+GenericName=Mindmap tool
+Comment=Launch XMind 8 Update 7
+Icon=xmind
+Path=/home/family/XMind/XMind_amd64
+Exec=./XMind %U
+Terminal=false
+StartupNotify=true
+Categories=Office;FlowChart;Presentation;
+MimeType=application/xmind;x-scheme-handler/xmind;
+```
