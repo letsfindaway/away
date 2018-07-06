@@ -38,6 +38,8 @@ Schließlich habe ich mich für borg entschieden. Die Deduplizierung verringert 
 
 Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich backintime empfehlen. Wer mehr Features haben will, der könnte mit borg sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
 
+Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme!
+
 ## Kate: alternative for Notepad++
 
 Der KDE Standard Text Editor Kate hat alles was ich erst mal brauche.
