@@ -105,6 +105,10 @@ Ich möchte ja immer möglichst nahe an der Distribution bleiben, möglichst wen
   * `owncloud`
   * `backintime`
   
-Das solte es fast schon sein. Viele Pakete liegen auf meinem `/home`, so z.B. Moneyplex, die ganzen Dinge, die unter `wine` laufen, die Arduino IDE. Bin gespannt, wie reibungslos das läuft!
+Das sollte es fast schon sein. Viele Pakete liegen auf meinem `/home`, so z.B. Moneyplex, die ganzen Dinge, die unter `wine` laufen, die Arduino IDE. Bin gespannt, wie reibungslos das läuft!
 
 Das war dann mein kurzer Ausflug zu `btrfs`. Ich hab's probiert, aber in Zukunft gehöre ich zu denjenigen, die davon abraten.
+
+## Problemlose Neuinstallation
+
+Schon nach eine Stunde war der Rechner wieder einsatzbereit. Die Neuinstallation verlief deutlich besser, als ich mir das vorgestellt hatte. In der Tat war alles, was auf meiner `/home` Partiton stand, sofort wieder einsatzbereit. Drucker- und Scannertreiber musste ich neu installieren.
