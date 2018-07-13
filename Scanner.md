@@ -19,7 +19,9 @@ Für mich gibt es zwei Einsatzfälle für den Scanner:
 * Scannen einzelner Fotos, Grafiken oder sonstiger Vorlagen in ein .jpeg-File oder ein anderes Grafikformat, meist in Farbe
 * Scannen mehrseitiger Dokumente in ein pdf-File, meist in Graustufen
 
-Für den ersten Fall leistet das bereits vorinstallierte `scanlite` gute Dienste. Es erlaubt die wichtigsten EInstellungen der Scanqualität, macht eine Vorschau, die es erlaubt, den endgültigen Ausschnitt festzulegen und kann dann das Ergebnis in einer Reihe unterschiedlicher Grafikformate speichern.
+Für den ersten Fall leistet das im Standardrepository verfügbare `xsane` gute Dienste. Es erlaubt die wichtigsten EInstellungen der Scanqualität, macht eine Vorschau, die es erlaubt, den endgültigen Ausschnitt festzulegen und kann dann das Ergebnis in einer Reihe unterschiedlicher Grafikformate speichern.
+
+`skanlite` wäre auch ein Kandidat gewesen. Allerdings gab es bei diesem Programm immer einen Versatz zwischen dem Ausschnitt in der Vorschau und dem Scanergebnis. Deshalb setze ich stattdessen das ältere und auch optisch weniger ansprechende `xsane` ein.
 
 Für den zweiten Fall habe ich in den Standard-Repositories erst mal kein passenden Programm gefunden. Vom Funktionsumfang her hat mir `gscan2pdf` gut gefallen, aber das ist in den Standardrepositories nicht verfügbar. Im Rahmen meiner Recherchen habe ich dann einiges über openSUSE Repositories gelernt.
 
@@ -35,6 +37,8 @@ Dazu ruft man YaST auf und von dort die Verwaltung der Software-Repositories. Hi
 Damit kommen beide Repositories in der Reihenfolge nach den Standard-Paketquellen.
 
 Nach der Einrichtung dieser Quellen kann dann `gscan2pdf` wie jede andere Software über YaST installiert werden. Das Paket hat Abhängigkeiten zu `texlive`, deren Ursache ich nicht näher untersucht habe. Das führt jedenfalls dazu, dass knapp 2 GByte und über 2000 Pakete installiert werden. Aber vielleicht kann ich TeX ja mal brauchen - und Platz ist noch reichlich vorhanden auf meiner root Partition!
+
+Zuletzt habe ich noch in den Einstellungen statt des bevorzugten `libimage-sane-perl` das `scanimage` Frontend ausgewählt. Mit diesem hat die Bedienung des Dokumenteneinzugs erheblich besser funktioniert als mit der ursprünglichen Auswahl.
 
 ## gscan2pdf Publishing Package
 
