@@ -28,3 +28,11 @@ Ein kleiner Nachteil: weil ich den Internet Explorer nicht installiert habe, gib
 Auch das Importieren von Bildern ist mühsamer als unter Windows. Wenn ich die Kamera per USB anschließe, dann habe ich sie bisher nicht in Picasa finden können. Ich muss also die SD Karte in den Kartenleser stecken. Und da organisiert meine Kamera die Bilder in mehrere Ordner. Ich muss jeden Ordner einzeln importieren. Picasa unter Wine kann die Kamera nicht direkt als "Kamera" erkennen, und auch die SD Karte nicht direkt als eine Karte, die aus einer Kamera stammt, so wie das unter Windows war.
 
 Das sind ein paar Klicks mehr als unter Windows, aber damit kann ich leben.
+
+# Bilder als E-Mail senden
+
+Diese Funktion tut erst mal nicht so wie gewünscht. zwar wird eine neue E-Mail in Thunderbird geöffnet, aber die Anlagen fehlen. Und gerade darum geht es ja. Tiefere Untersuchungen haben ergeben, dass dies generell ein Problem der MAPI Implementierung in wine ist: Das Senden von E-Mail erfolgt über einen ` mailto:`-Link. Über diesen Weg wird zwar immer der Standard-Mailer angesprochen. Attachments gehen damit aber nicht.
+
+Ich habe im Forum dann noch jemand gefunden, der dieses Problem hatte: https://askubuntu.com/questions/989830/how-to-mailing-photos-from-picasa-3-9-in-thunderbird. Dort habe ich auch genau beschrieben, wie ich es gelöst habe! Das MAPI baut nun einen compose-String zusammen und übergibt diesen direkt an Thunderbird, ohne Umweg über `mailto:`. Das Repository mit meinem Patch ist hier zu finden: https://build.opensuse.org/package/show/home:letsfindaway:branches:openSUSE:Leap:15.0/wine. Die neue Methode zum Aufruf von Thunderbird hat darüber hinaus den Vorteil, dass die Umlaute richtig im Betreff ankommen!
+
+Ohne den openSUSE Build Service hätte ich das nicht so schnell geschafft. Vielen Dank!
