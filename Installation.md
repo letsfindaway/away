@@ -81,7 +81,7 @@ Und das Ergebnis: Ein sicher und schnell startendes System!
 
 Und wieder einige Zeit später: nach dem Starten ist das System für ca 20 Minuten praktisch unbenutzbar. Ich habe es noch geschafft eine Konsole zu öffnen und `top` aufzurufen. Dort standen `btrfs-balance` und `btrfs-transaction` abwechselnd ganz oben und verbrauchten jeweils 100% CPU.
 
-Die Meinungen und Diskussionen zu `btrfs` sind ja recht unterschiedlich. Ich habe daraufhin [dikesen Thread](https://www.opensuse-forum.de/thread/40607) im openSUSE Forum gestartet. Die Antworten haben mich nicht von `btrfs` überzeugt. Wenn ich mal wieder ein paar Stunden Zeit habe, dann heißt das "da capo". Neuinstallieren mit `ext4` als root Filesystem.
+Die Meinungen und Diskussionen zu `btrfs` sind ja recht unterschiedlich. Ich habe daraufhin [diesen Thread](https://www.opensuse-forum.de/thread/40607) im openSUSE Forum gestartet. Die Antworten haben mich nicht von `btrfs` überzeugt. Wenn ich mal wieder ein paar Stunden Zeit habe, dann heißt das "da capo". Neuinstallieren mit `ext4` als root Filesystem.
 
 Ein Filesystem muss für mich vor allem schnell, ruhig und zuverlässig und völlig unauffällig sein. Ein Filesystem, das regelmäßige Wartung braucht (und das nicht mal unauffällig im Hintergrund erledigen kann) und das mich von der Benutzung meines Rechners abhält, ist für meine Zwecke nicht brauchbar. 
 
