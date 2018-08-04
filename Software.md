@@ -27,7 +27,7 @@ Ich habe die Liste mal gleich in drei Kategorien eingeteilt: was gibt es einfach
 * [Microsoft Excel](Office2010.md)
 * [Microsoft Powerpoint](Office2010.md)
 * [Microsoft Access](Access.md)
-* [TZ-EasyBuch (Buchhaltungssoftware, ich versuche es mal auf Wine)](Access.md)
+* [TZ-EasyBuch (Buchhaltungssoftware)](Access.md)
 * SteuerSparErklärung
 
 ## Da brauche ich eine Alternative
