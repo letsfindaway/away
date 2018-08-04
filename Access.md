@@ -1,30 +1,26 @@
 # Microsoft Access 2010 and TZ-EasyBuch
 
-Microsoft Access 2010 does not run under wine. Fullstop.
+Microsoft Access 2010 does läuft nicht unter wine. Punkt.
 
-Most article I found had no success, and if somebody got it working, then only small parts of it.
+Die Autoren der meisten Beiträge, die ich gefunden habe, hatten keinen Erfolg. Wenn jemand doch Access zum Laufen gebracht hat, dann nur zu kleinen Teilen.
 
-I have a Microsoft Access database as part of a bookkeeping solution together with TZ-EasyBuch, and in some way I have to transfer this solution to Linux. I keep customers and invoices in the database and generate bookings using the COM interface of TZ-EasyBuch. This way will no longer be possible. So what to do?
+Ich habe eine Microsoft Access Datenbank als Teil einer Buchhaltungslösung zusammen mit [TZ-EasyBuch](https://www.tz-easybuch.de/), und irgendwie muss ich diese Lösung auf Linux übertragen. Kunden und Rechnungen werden in der Datenbank abgelegt und bisher über das COM-Interface nach TZ-EasyBuch übergeben. Das Wird in Zukunft so nicht mehr gehen. Was tun?
 
-Currently I run an investigation of the following way:
+Ich habe verschiedene Lösungsansätze untersucht und bin jetzt beim folgenden Ansatz gelandet:
 
-* Transfer the database to LibreOffice Base
-* Install TZ-EasyBuch inside wine
-* Install a Java JRE in the same wine prefix
-* Write a Java Application running inside wine which interacts with the database on one side and Tz-EasyBuch on the other side using com4j.
+* Übertragen der Access Datenbank nach LibreOffice Base
+* Installation von TZ-EasyBuch unter wine
+* Exportieren von Buchhaltungsdaten aus LibreOffice Base in CSV-Dateien und Importieren dieser Daten in TZ-EasyBuch
 
-## Transfer the database to LibreOffice Base
+## Übertragen der Access Datenbank nach LibreOffice Base
 
-TODO
+Im Wesentlichen heißt das, die Datenbank neu aufzubauen. Die Skripte muss ich ebenfalls neu schreiben. Das Übertragen der Daten ist dann das kleinste Problem. Ich mache das unter Windows wie folgt:
 
-## Install TZ-EasyBuch inside wine
+* Unter Windows LibreOffice Base installieren (ich habe die Portable Version gewählt, aber das ist egal)
+* Die notwendigen Tabellen in LibreOffice Base anlegen
+* Access und Base parallel öffnen
+* Daten aus den Tabellen per Copy/Paste kopieren. Wenn die Spalten passen, geht das ganz problemlos
 
-TODO
+## Installation von TZ-EasyBuch unter wine
 
-## Install a Java JRE in the same wine prefix
-
-TODO
-
-## Write a Java Application for interaction of the database and TZ-EasyBuch
-
-TODO
+TZ-EasyBuch läuft ohne irgendwelche besonderen Klimmzüge unter wine. Die Elster-Funktionen habe ich nicht getestet, da ich sie nicht benötige. Aber sonst scheint das ohne größere Probleme zu gehen.
