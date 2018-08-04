@@ -40,7 +40,7 @@ Schließlich habe ich mich für borg entschieden. Die Deduplizierung verringert 
 
 Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich backintime empfehlen. Wer mehr Features haben will, der könnte mit borg sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
 
-Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme!
+Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme! Siehe dazu auch den Bug Report unter https://bugzilla.opensuse.org/show_bug.cgi?id=1095725.
 
 ## Kate: alternative for Notepad++
 
@@ -56,8 +56,4 @@ Der Konsolen - `ssh` Client ist eigentlich ausreichend für die wenigen Male wo 
 
 ## Ulead PhotoImpact
 
-I liked this graphics program a lot on Windows, because it offers a rich feature set without the steep learning curve other programs require. It also allows to use a scanner from within the program.
-
-Working through the huge list of possible alternatives is still a 
-
-TODO
+Mir hat dieses Programm gut gefallen. Es bietet viele Möglichkeiten und ist doch einfach zu bedienen. Natürlich ist gimp die Software der Wahl unter Linux, wenn es um Bildbearbeitung geht. Mal sehen, wie gut ich damit zurechtkommen werde!
