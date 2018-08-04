@@ -43,4 +43,6 @@ Immer wieder passiert es, dass die Uhrzeit der Kamera nicht richtig gestellt ist
 
 Unter Windows hatte ich dann den EXIF Date Changer verwendet, der genau das kann. Nicht viel mehr, aber dafür reicht es. Unter Linux ist das `exiftool` fester Bestandteil der Distribution. Es kann noch viel mehr, ist aber ein typisches Linux Command Line Tool ohne grafische Oberfläche.
 
-Unter openSUSE ist aber `Photini` in der Distribution enthalten, das eine grafische Oberfläche für die wichtigsten Funktionen von `exiftool` bietet. Damit das Programm läuft, muss aber noch das Paket `python3-requests` installiert werden, das leider nicht in der Liste der Abhängigkeiten von `Photini` steht und deshalb nicht automatisch mitkommt. Dann bietet dieses Tool aber eine brauchbare, englischsprachige Oberfläche für viele Aufgaben rund um EXIF.
+Unter openSUSE ist aber `Photini` in der Distribution enthalten, das eine grafische Oberfläche für die wichtigsten Funktionen von `exiftool` bietet. Damit das Programm läuft, muss aber noch das Paket `python3-requests` installiert werden, das leider nicht in der Liste der Abhängigkeiten von `Photini` steht und deshalb nicht automatisch mitkommt. Für dieses Problem habe ich einen Report auf SUSE Bugzilla angelegt: https://bugzilla.opensuse.org/show_bug.cgi?id=1103804
+
+Dann bietet dieses Tool aber eine brauchbare, englischsprachige Oberfläche für viele Aufgaben rund um EXIF.
