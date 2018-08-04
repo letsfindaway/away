@@ -9,7 +9,7 @@ Ich habe die Liste mal gleich in drei Kategorien eingeteilt: was gibt es einfach
 * [Firefox](Firefox.md)
 * [KeePass und das Kee plugin für Firefox](Firefox.md) (läuft mit mono)
 * [Thunderbird](Thunderbird.md)
-* Cewe Foto
+* [Cewe Foto](Cewe.md)
 * OwnCloud client
 * git
 * Java
