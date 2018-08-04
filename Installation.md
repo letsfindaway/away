@@ -53,6 +53,10 @@ Die UUID muss natürlich der oben ermittelten entsprechen, und der Username `myu
 
 Nach dem nächsten Reboot ist das Laufwerk jedenfalls automatisch gemountet und Dolphin zeigt von Anfang an ein grünes Icon.
 
+# Removable Devices
+
+Die Partitionen meiner neuen SSD wurden von Dolphin und vom Gerätemanager als "Wechseldatenträger" erkannt, mit der Option, diese doch vom System zu trennen! Das ist bestimmt keine gute Idee. Woher das kommt und wie man das behebt ist eine etwas längere Story, die man unter https://www.opensuse-forum.de/thread/40568 nachlesen kann. Beim siebten Beitrag (https://www.opensuse-forum.de/thread/40568#post121460) steht die Lösung!
+
 # Einige Wochen später ...
 
 ... war ich dann doch wieder etwas frustriert. Der Boot-Vorgang dauerte länger als bei Windows - fast doppelt so lang, und das trotz SSD an einem 6GB/s SATA Anschluss. Und manchmal blieb die Spash-Animation auch einfach hängen. Erst heftiges Drücken einiger Tasten, insbesondere die Umschaltung zwischen verschiedenen virtiuellen Bildschirmen mit Alt-F1 und Alt-F7 brachte dann wieder Leben in die Bude. Diesen Zustand konnte ich niemandem zumuten.
