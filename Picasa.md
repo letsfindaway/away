@@ -41,6 +41,6 @@ Ohne den openSUSE Build Service hätte ich das nicht so schnell geschafft. Viele
 
 Immer wieder passiert es, dass die Uhrzeit der Kamera nicht richtig gestellt ist. Besonders beim Mischen von Bildern von Kamera, Smartphone und anderen Quellen kommt dann die zeitliche Ordnung durcheinander.
 
-Unter Windows hatte ich dann den EXIF Date Changer verwendet, der genau das kann. Nicht viel mehr, aber dafür reicht es. Unter Linux ist das `exiftool` fester Bestandteil der Distribution. Es kann noch viel mehr, ist aner ein typisches Linux Command Line Tool ohne grafische Oberfläche.
+Unter Windows hatte ich dann den EXIF Date Changer verwendet, der genau das kann. Nicht viel mehr, aber dafür reicht es. Unter Linux ist das `exiftool` fester Bestandteil der Distribution. Es kann noch viel mehr, ist aber ein typisches Linux Command Line Tool ohne grafische Oberfläche.
 
-Unter openSUSE ist aber `Photini` in der Distribution enthalten, das eine grafische Oberfläche für die wichtigsten Funktionen von `exiftool` bietet. Damit das Programm läuft, muss aber noch das Paket `python3-requests` installiert werden, das leider nicht in der Liste der Abhängigkeiten von `Photini` steht. Dann bietet dieses Tool aber eine brauchbare, englischsprachige Oberfläche für viele Aufgaben rund um EXIF.
+Unter openSUSE ist aber `Photini` in der Distribution enthalten, das eine grafische Oberfläche für die wichtigsten Funktionen von `exiftool` bietet. Damit das Programm läuft, muss aber noch das Paket `python3-requests` installiert werden, das leider nicht in der Liste der Abhängigkeiten von `Photini` steht und deshalb nicht automatisch mitkommt. Dann bietet dieses Tool aber eine brauchbare, englischsprachige Oberfläche für viele Aufgaben rund um EXIF.
