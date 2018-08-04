@@ -91,13 +91,13 @@ Ich möchte ja immer möglichst nahe an der Distribution bleiben, möglichst wen
   * Entfernen der 300GB `btrfs` root Partition
   * Anlegen von zwei 150GB Partitionen. Eine wird dann die neue root Partition mit `ext4`, die andere bleibt in Reserve für den nächsten Versionssprung.
 * Konfigurieren folgender Geräte
-  * Drucker Canon LBJ3360
-  * Drucker Brother DCP-9020
-  * Scannereinheit des Brother DCP-9020
+  * Drucker Canon LBJ3360 (mit dem Treiber von Canon)
+  * Drucker Brother DCP-9020 (mit dem Treiber von Brother)
+  * Scannereinheit des Brother DCP-9020 (mit dem Treiber von Brother)
   * Chipkartenleser ReinerSCT
 * Editieren folgender Dateien
   * `/etc/fstab`, siehe oben
-  * `/lib/systemd/system/pcscd.service` gemäß [dieser Anleitung von Matrica](http://wiki.matrica.com/index.php/Cyberjack)
+  * `/lib/systemd/system/pcscd.service` gemäß [dieser Anleitung von Matrica](http://wiki.matrica.com/index.php/Cyberjack) (PS: das scheint mit der aktuellen Leap 15.0 nicht mehr notwendig zu sein!)
 * Installieren zusätzlicher Pakete
   * `wine`
   * `playonlinux`
@@ -107,7 +107,11 @@ Ich möchte ja immer möglichst nahe an der Distribution bleiben, möglichst wen
   * `gscan2pdf-lang`
   * `xsane`
   * `owncloud`
-  * `backintime`
+  * `borg`
+  * `borgmatic`
+  * `photini`
+  * `python3-requests`
+  * `libopenssl1_0_0`
   
 Das sollte es fast schon sein. Viele Pakete liegen auf meinem `/home`, so z.B. Moneyplex, die ganzen Dinge, die unter `wine` laufen, die Arduino IDE. Bin gespannt, wie reibungslos das läuft!
 
