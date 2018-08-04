@@ -36,3 +36,11 @@ Diese Funktion tut erst mal nicht so wie gewünscht. zwar wird eine neue E-Mail 
 Ich habe im Forum dann noch jemand gefunden, der dieses Problem hatte: https://askubuntu.com/questions/989830/how-to-mailing-photos-from-picasa-3-9-in-thunderbird. Dort habe ich auch genau beschrieben, wie ich es gelöst habe! Das MAPI baut nun einen compose-String zusammen und übergibt diesen direkt an Thunderbird, ohne Umweg über `mailto:`. Das Repository mit meinem Patch ist hier zu finden: https://build.opensuse.org/package/show/home:letsfindaway:branches:openSUSE:Leap:15.0/wine. Die neue Methode zum Aufruf von Thunderbird hat darüber hinaus den Vorteil, dass die Umlaute richtig im Betreff ankommen!
 
 Ohne den openSUSE Build Service hätte ich das nicht so schnell geschafft. Vielen Dank!
+
+# EXIF Daten bearbeiten
+
+Immer wieder passiert es, dass die Uhrzeit der Kamera nicht richtig gestellt ist. Besonders beim Mischen von Bildern von Kamera, Smartphone und anderen Quellen kommt dann die zeitliche Ordnung durcheinander.
+
+Unter Windows hatte ich dann den EXIF Date Changer verwendet, der genau das kann. Nicht viel mehr, aber dafür reicht es. Unter Linux ist das `exiftool` fester Bestandteil der Distribution. Es kann noch viel mehr, ist aner ein typisches Linux Command Line Tool ohne grafische Oberfläche.
+
+Unter openSUSE ist aber `Photini` in der Distribution enthalten, das eine grafische Oberfläche für die wichtigsten Funktionen von `exiftool` bietet. Damit das Programm läuft, muss aber noch das Paket `python3-requests` installiert werden, das leider nicht in der Liste der Abhängigkeiten von `Photini` steht. Dann bietet dieses Tool aber eine brauchbare, englischsprachige Oberfläche für viele Aufgaben rund um EXIF.
