@@ -16,3 +16,11 @@ KDE ist einfach mein persönlicher Favorit. In der Arbeit benutze ich öfter Ubu
 Ich will und kann hier nicht eine komplette Diskussion aller Distributionen vornehmen und meine Wahl fiel dann schließlich auch mehr aus einem Bauchgefühl heraus als nach einer wissenschaftlichen Analyse. Ich weiß, dass sich jede Linux Installation sehr weitreichend nach eigenen Wünschen ändern und konfigurieren lässt, verschiedene Desktops sind kein Problem. Trotzdem, ich wollte so nahe wie möglich am Default einer Distribution bleiben, weil ich die Erwartung habe, dass ich dann den besten Support erhalten werde.
 
 Meine Wahl fiel schließlich auf openSUSE. Sie führen KDE als Standard-Oberfläche (neben anderen), haben eine gute Community, besonders hier in Deutschland, haben einen klaren Plan für Upgrades, sind recht stabil, und haben ein hübsches Logo ;-)
+
+Auf https://www.opensuse.org/ kriegt man dann gleich die Auswahl zwischen Tumbleweed und Leap:
+
+Tumbleweed ist eine Rolling Release, die immer mit den neuesten Paketen versorgt wird. Dafür findet sich da auch manches Experimentelle, das vielleicht noch nicht so gut getestet worden ist.
+
+Leap ist dagegen eine stabilere Version, die von der Grundausstattung her eng mit der kommerziellen Variable SLES verknüpft ist. Applikationen sind aber aktueller. In regelmäßigen Abständen erscheinen neue Versionen.
+
+Mir ist Stabilität wichtiger als immer die aktuellsten Versionen zu haben und habe mich deshalb für Leap entschieden. Bisher bin ich damit sehr zufrieden. Und wenn ich mal ein Problem habe, dann kann ich es auf https://www.opensuse-forum.de/ diskutieren und finde garantiert gute Unterstützung!
