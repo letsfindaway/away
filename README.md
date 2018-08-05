@@ -27,6 +27,7 @@ Schritt für Schritt dokumentiere ich den Weg dieses Übergangs. Nicht immer in 
 ### Installation
 
 * [Linux Installieren und Windows/Linux dual-boot einrichten](Installation.md)
+* [Drucker und Scanner](Scanner.md)
 
 ### Software Umstellung
 
