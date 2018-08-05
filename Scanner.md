@@ -1,3 +1,10 @@
+
+# Drucker
+
+Für meine beiden Laserdrucker (Canon LBP3360 und Brother DCP-9020CDW) habe ich zunächst mit Freude festgestellt, dass Treiber für diese beiden einfach mit an Bord sind! Das [gutenprint-Projekt](http://gimp-print.sourceforge.net/) und [foomatic](https://wiki.linuxfoundation.org/openprinting/database/foomatic) unterstützen eine breite Palette an Druckern und ich habe beide Drucker erst einmal mit diesen Treibern zum Laufen gebracht. Oder besser: zum Schleichen. Denn manche Ausdrucke gar nicht so komplizierte Dokumente haben mehrere Minuten gedauert (pro Seite!), und zwar auf beiden Druckern.
+
+Ich bin dann auf die Support-Seiten der Hersteller gegangen. Dort werden Linux-Druckertreiber für diese Modelle angeboten. Diese habe ich dann nach Anweisung installiert. Die Druckgeschwindigkeit hat sich dadurch erheblich verbessert.
+
 # Scanner
 
 ## Installation des Brother Scanner Treibers
