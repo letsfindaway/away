@@ -6,7 +6,7 @@ Die Berichte darüber, ob es unter wine läuft, sind zwiespältig. Die einen mei
 
 Bei der Installation unter wine verwendet man am besten einen neuen Präfix - PlayOnLinux macht das einfach - und eine aktuelle wine-Version. Dann kann man den Installer starten. Und nun kommt der erste wichtige Punkt:
 
-__Unbedingt die "Portable" Installation wählen!__ Die "normale" Installation führt nicht zum Erfolg. Dann aber kann man MyPhomeExplorer erst mal starten.
+__Unbedingt die "Portable" Installation wählen!__ Die "normale" Installation führt nicht zum Erfolg. Dann aber kann man MyPhoneExplorer erst mal starten.
 
 Doch nun der zweite Punkt: MyPhoneExplorer findet das Telefon nicht :( Da ist zu beachten:
 
