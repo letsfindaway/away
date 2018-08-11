@@ -29,7 +29,7 @@ Ich habe die Liste mal gleich in drei Kategorien eingeteilt: was gibt es einfach
 * [Microsoft Access](Access.md)
 * [TZ-EasyBuch (Buchhaltungssoftware)](Access.md)
 * SteuerSparErklärung
-* MyPhoneExplorer
+* [MyPhoneExplorer](MyPhoneExplorer.md)
 
 ## Da brauche ich eine Alternative
 
