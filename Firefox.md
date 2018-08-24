@@ -18,7 +18,7 @@ Um die Sprache zu ändern habe ich zuerst im Menu Tools -> Change language ausge
 
 # Kee
 
-Kee ist das Firefox Plugin, das Zugriff auf die in KeePass gespeicherten Daten erlaubt. Man kann es einfach über den Firefox Plugin Manager installieren und erhält dann weitere Informationen zum Vorgehen. Wie unter Windows, so muss man auch unter Linux die Datei `KeePassRPC.plgx` in ein Verzeichnis `plugins` unterhalb von `/usr/lib/keepass` kopieren. Der Administrator-Dolphin aus dem vorigen Abschnitt leistet ahci hier gute Hilfe!
+Kee ist das Firefox Plugin, das Zugriff auf die in KeePass gespeicherten Daten erlaubt. Man kann es einfach über den Firefox Plugin Manager installieren und erhält dann weitere Informationen zum Vorgehen. Wie unter Windows, so muss man auch unter Linux die Datei `KeePassRPC.plgx` in ein Verzeichnis `plugins` unterhalb von `/usr/lib/keepass` kopieren. Der Administrator-Dolphin aus dem vorigen Abschnitt leistet auch hier gute Hilfe!
 
 Nach dem nächsten Neustart von Firefox muss man noch - wie von Windows gewohnt - einen Key von Kee in ein Popup-Fenster von KeePass kopieren, um den Zugriff auf die Daten zu erlauben. Dann funktioniert alles so wie von Windows gewohnt.
 
