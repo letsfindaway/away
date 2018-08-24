@@ -29,16 +29,16 @@ Wer mit https-basierten Bankzugängen Probleme hat - der Test in den Einstellung
 
 Beim Backup habe ich lange rumgesucht. Schließlich habe ich zwei Favoriten gefunden:
 
-* backintime
-* borg
+* `backintime`
+* `borg`
 
-Backintime kommt mit einer netten grafischen Oberfläche. Wie der Name schon sagt, kann man den Zustand der gesicherten Verzeichnisse zu jedem Backup grafisch anschauen und leicht Dateien zurückkopieren. Im Hintergrund arbeitet rsync, das für inkrementelle Backups zuständig ist. Auch ohne das Tool kann man alle Dateien auf der Sicherungsplatte als normale Dateien ansprechen. Für nicht geänderte Dateien wir dein Hardlink auf die letzte Version angelegt.
+`backintime` kommt mit einer netten grafischen Oberfläche. Wie der Name schon sagt, kann man den Zustand der gesicherten Verzeichnisse zu jedem Backup grafisch anschauen und leicht Dateien zurückkopieren. Im Hintergrund arbeitet `rsync`, das für inkrementelle Backups zuständig ist. Auch ohne das Tool kann man alle Dateien auf der Sicherungsplatte als normale Dateien ansprechen. Für nicht geänderte Dateien wird ein Hardlink auf die letzte Version angelegt.
 
-borg besticht dagegen durch viele Features: Backups werden dedupliziert, komprimiert und verschlüsselt. Die Dateien auf der Platte sind dann aber nur Chunks von 500MByte Größe. Zugreifen kann man auf die Sicherungen, indem man sie wie ein Filesystem mountet. Dann hat man ebenfalls Zugriff auf alle Dateien zu allen Sicherungszeitpunkten -- allerdings braucht man dazu eben borg. Ohne das Tool ist kein Zugriff möglich. Eine schöne grafische Oberfläche gibt es aber nicht.
+`borg` besticht dagegen durch viele Features: Backups werden dedupliziert, komprimiert und verschlüsselt. Die Dateien auf der Platte sind dann aber nur Chunks von 500 MByte Größe. Zugreifen kann man auf die Sicherungen, indem man sie wie ein Filesystem mountet. Dann hat man ebenfalls Zugriff auf alle Dateien zu allen Sicherungszeitpunkten -- allerdings braucht man dazu eben `borg`. Ohne das Tool ist kein Zugriff möglich. Eine schöne grafische Oberfläche gibt es aber nicht.
 
-Schließlich habe ich mich für borg entschieden. Die Deduplizierung verringert die Größe des Backups paralleler wine Prefixe. Sichert man sehr viele Dateien (ich habe alleine 40.000 Fotos!), dann sind die Hardlinks auch keine schöne Sache und das Erzeugen dieser Links dauert länger als der ganze restliche Backup-Vorgang.
+Schließlich habe ich mich für `borg` entschieden. Die Deduplizierung verringert die Größe des Backups paralleler wine Prefixe. Sichert man sehr viele Dateien (ich habe alleine 40.000 Fotos!), dann sind die Hardlinks auch keine schöne Sache und das Erzeugen dieser Links dauert länger als der ganze restliche Backup-Vorgang.
 
-Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich backintime empfehlen. Wer mehr Features haben will, der könnte mit borg sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
+Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich `backintime` empfehlen. Wer mehr Features haben will, der könnte mit `borg` sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
 
 Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme! Siehe dazu auch den Bug Report unter https://bugzilla.opensuse.org/show_bug.cgi?id=1095725.
 
@@ -56,4 +56,4 @@ Der Konsolen - `ssh` Client ist eigentlich ausreichend für die wenigen Male wo 
 
 ## Ulead PhotoImpact
 
-Mir hat dieses Programm gut gefallen. Es bietet viele Möglichkeiten und ist doch einfach zu bedienen. Natürlich ist gimp die Software der Wahl unter Linux, wenn es um Bildbearbeitung geht. Mal sehen, wie gut ich damit zurechtkommen werde!
+Mir hat dieses Programm gut gefallen. Es bietet viele Möglichkeiten und ist doch einfach zu bedienen. Natürlich ist `gimp` die Software der Wahl unter Linux, wenn es um Bildbearbeitung geht. Mal sehen, wie gut ich damit zurechtkommen werde! Die Fotomontage für meinen Desktop Hintergrund habe ich jedenfalls schon mal ganz gut hingebracht!
