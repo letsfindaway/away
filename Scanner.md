@@ -32,7 +32,7 @@ Für den ersten Fall leistet das im Standardrepository verfügbare `xsane` gute 
 
 Für den zweiten Fall habe ich in den Standard-Repositories erst mal kein passenden Programm gefunden. Vom Funktionsumfang her hat mir `gscan2pdf` gut gefallen, aber das ist in den Standardrepositories nicht verfügbar. Im Rahmen meiner Recherchen habe ich dann einiges über openSUSE Repositories gelernt.
 
-Neben den standardmäßig eingebundenen Repositories bietet nämlich bereits openSUSE eine große Zahl weiterer Quellen für Software, die über den Open Build Service für openSUSE gebaut worden ist. EIn Blick nach http://download.opensuse.org/repositories/ lohnt sich: die Liste dort ist lang. Unter "Publishing" finden sich da Pakete, die nicht offiziell freigegeben sind, aber sich auf dem Weg dahin befinden. Dort ist auch `gscan2pdf` mit dabei. 
+Neben den standardmäßig eingebundenen Repositories bietet nämlich bereits openSUSE eine große Zahl weiterer Quellen für Software, die über den Open Build Service für openSUSE gebaut worden ist. EIn Blick nach http://download.opensuse.org/repositories/ lohnt sich: die Liste dort ist lang. Unter "Publishing" finden sich da Pakete, die irgendetwas mit Dokumentenverarbeitung zu tun haben. Dort ist auch `gscan2pdf` mit dabei. 
 
 `gscan2pdf` braucht aber noch eine Reihe von perl-Modulen, die ebenfalls nicht im Standardrepository liegen. Doch auch dafür gibt es eine Quelle. Unter `devel:/languages:/perl` findet sich alles, was `gscan2pdf`braucht. Also muss man zwei neue Reporitories einbinden.
 
