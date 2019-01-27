@@ -23,7 +23,7 @@ Minuten später hatte ich den Link zur brandneuen 2018er-Version. Die Installati
 
 ich denke als deutscher Anwender mit Anforderungen, die über [Hibiscus](https://www.willuhn.de/products/hibiscus/) hinausgehen, ist Moneyplex die Alternative der Wahl!
 
-Wer mit https-basierten Bankzugängen Probleme hat - der Test in den Einstellungen, Tab Internet zeigt einen Fehler bei Port 443, der sollte https://www.opensuse-forum.de/thread/40717-port-443-moneyplex-in-opensuse-leap-15 lesen und die `libopenssl1_0_0` nachinstallieren! Das hilft auch, wenn Cewe Fotobuch Zicken bei der Übertragung von Aufträgen macht.
+Wer mit https-basierten Bankzugängen Probleme hat - der Test in den Einstellungen, Tab Internet zeigt einen Fehler bei Port 443, der sollte https://www.opensuse-forum.de/thread/40717-port-443-moneyplex-in-opensuse-leap-15/ lesen und die `libopenssl1_0_0` nachinstallieren! Das hilft auch, wenn Cewe Fotobuch Zicken bei der Übertragung von Aufträgen macht.
 
 ## BackupServiceHome
 
