@@ -23,7 +23,7 @@ Minuten später hatte ich den Link zur brandneuen 2018er-Version. Die Installati
 
 ich denke als deutscher Anwender mit Anforderungen, die über [Hibiscus](https://www.willuhn.de/products/hibiscus/) hinausgehen, ist Moneyplex die Alternative der Wahl!
 
-Wer mit https-basierten Bankzugängen Probleme hat - der Test in den Einstellungen, Tab Internet zeigt einen Fehler bei Port 443, der sollte https://www.opensuse-forum.de/thread/40717-port-443-moneyplex-in-opensuse-leap-15/ lesen und die `libopenssl1_0_0` nachinstallieren! Das hilft auch, wenn Cewe Fotobuch Zicken bei der Übertragung von Aufträgen macht.
+Wer mit https-basierten Bankzugängen Probleme hat - der Test in den Einstellungen, Tab Internet zeigt einen Fehler bei Port 443, der sollte [https://www.opensuse-forum.de/thread/40717-port-443-moneyplex-in-opensuse-leap-15/](https://www.opensuse-forum.de/thread/40717-port-443-moneyplex-in-opensuse-leap-15/) lesen und die `libopenssl1_0_0` nachinstallieren! Das hilft auch, wenn Cewe Fotobuch Zicken bei der Übertragung von Aufträgen macht.
 
 ## BackupServiceHome
 
@@ -40,7 +40,9 @@ Schließlich habe ich mich für `borg` entschieden. Die Deduplizierung verringer
 
 Will man es einfach haben und hat keine so riesige Anzahl an Dateien, dann würde ich `backintime` empfehlen. Wer mehr Features haben will, der könnte mit `borg` sehr gut bedient sein. Beide Tools sind im Standard Repository von openSUSE zu haben.
 
-Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme! Siehe dazu auch den Bug Report unter https://bugzilla.opensuse.org/show_bug.cgi?id=1095725.
+Damit aber das Mounten von Backups als virtuelles FUSE Dateisystem funktioniert, brauch man noch das Paket `python3-llfuse`, das mal wieder nicht in den Standard-Repositories verfügbar ist. Fündig geworden bin ich dann unter `http://download.opensuse.org/repositories/filesystems/openSUSE_Leap_15.0`. Ich habe dieses Repository mit Prio 100 hinzugefügt und dann das Paket von dort installiert. Dann funktioniert auch `borg mount` ohne Probleme! Siehe dazu auch den Bug Report unter [https://bugzilla.opensuse.org/show_bug.cgi?id=1095725](https://bugzilla.opensuse.org/show_bug.cgi?id=1095725).
+
+Der Bug ist inzwischen übrigens gefixt, die oben beschriebene Maßnahme erübrigt sich also.
 
 ## Kate: alternative for Notepad++
 
