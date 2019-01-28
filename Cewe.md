@@ -2,7 +2,7 @@
 
 Löblicherweise stellt Cewe seine Fotobuchsoftware auch für Linux zur Verfügung. Das fällt nicht schwer, ist sie doch mit dem Qt-Framework programmiert, das viele verschiedene Plattformen unterstützt.
 
-Der Download erfolgt von https://www.cewe.de/bestellsoftware.html. Als Linux-Anwender kriegt man von dort gleich ein tgz-Archiv, das aber eigentlich nur ein Installationsskript enthält. Damit kann nun die Software in ein beliebiges Verzeichnis installiert werden. Typischerweise sollte man dafür ein Verzeichnis unterhalb des home-Verzeichnises verwenden, da dies eine benutzerspezifische Software ist, die nicht mit den Paketen des Systems vermengt werden sollte.
+Der Download erfolgt von [https://www.cewe.de/bestellsoftware.html](https://www.cewe.de/bestellsoftware.html). Als Linux-Anwender kriegt man von dort gleich ein tgz-Archiv, das aber eigentlich nur ein Installationsskript enthält. Damit kann nun die Software in ein beliebiges Verzeichnis installiert werden. Typischerweise sollte man dafür ein Verzeichnis unterhalb des home-Verzeichnises verwenden, da dies eine benutzerspezifische Software ist, die nicht mit den Paketen des Systems vermengt werden sollte.
 
 Beim Erstellen meines ersten Fotobuchs lief alles glatt - bis ich das fertige Buch zum Server übertragen wollte. Dort gab es lediglich einen `Fehler 10000`, und dann war Schluss. 
 
