@@ -4,9 +4,9 @@ XMind ist eine Eclipse-basierte Mind Mapping Software, die es auch für Linux gi
 
 Zunächst stand an dieser Stelle eine ziemlich lange Anleitung, wie man das Ding zum Laufen kriegt. Doch dann habe ich auf dem openSUSE Build Service mein eigenes Paket für XMind gebaut. Jetzt kann ich (und jeder andere auch) es einfach aus meinem eigenen Repository installieren!
 
-Den Build selber kann man hier einsehen: https://build.opensuse.org/package/show/home:letsfindaway/XMind
+Den Build selber kann man hier einsehen: [https://build.opensuse.org/package/show/home:letsfindaway/XMind](https://build.opensuse.org/package/show/home:letsfindaway/XMind)
 
-Das Repository liegt unter https://download.opensuse.org/repositories/home:/letsfindaway/openSUSE_Leap_15.0/ und kann wie jedes andere Repository in die Softwareverwaltung eingebunden werden. Danach steht XMind zur Installation zur Verfügung.
+Das Repository liegt unter [https://download.opensuse.org/repositories/home:/letsfindaway/openSUSE_Leap_15.0/](https://download.opensuse.org/repositories/home:/letsfindaway/openSUSE_Leap_15.0/) und kann wie jedes andere Repository in die Softwareverwaltung eingebunden werden. Danach steht XMind zur Installation zur Verfügung.
 
 Meine Änderungen am Original betreffen insbesondere:
 
