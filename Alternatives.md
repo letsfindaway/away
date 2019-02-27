@@ -56,6 +56,8 @@ Der Konsolen - `ssh` Client ist eigentlich ausreichend für die wenigen Male wo 
 
 `Dolphin`, der Standard File Manager von KDE unterstützt bereits von Hause aus `SFTP`. In der Ansicht mit zwei nebeneinanderliegenden Verzeichnissen ist das Kopieren einfach und bequem möglich. 
 
+Daneben habe ich inzwischen auch noch FileZilla installiert, dann bleiben keine Wünsche offen.
+
 ## Ulead PhotoImpact
 
 Mir hat dieses Programm gut gefallen. Es bietet viele Möglichkeiten und ist doch einfach zu bedienen. Natürlich ist `gimp` die Software der Wahl unter Linux, wenn es um Bildbearbeitung geht. Mal sehen, wie gut ich damit zurechtkommen werde! Die Fotomontage für meinen Desktop Hintergrund habe ich jedenfalls schon mal ganz gut hingebracht!
